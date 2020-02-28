@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "equipes",
+  "info": {
+    "name": "Équipe"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    },
+    "pratiques": {
+      "via": "equipes",
+      "collection": "pratiques"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pratiques",
+      "handler": "pratiques.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pratiques/count",
+      "handler": "pratiques.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pratiques/:id",
+      "handler": "pratiques.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pratiques",
+      "handler": "pratiques.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pratiques/:id",
+      "handler": "pratiques.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pratiques/:id",
+      "handler": "pratiques.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

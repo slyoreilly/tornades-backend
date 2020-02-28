@@ -1,0 +1,19 @@
+{
+  "info": {
+    "name": "Arenas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    },
+    "Adresse": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "arenas"
+}

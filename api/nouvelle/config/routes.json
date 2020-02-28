@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nouvelles",
+      "handler": "nouvelle.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nouvelles/count",
+      "handler": "nouvelle.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nouvelles/:id",
+      "handler": "nouvelle.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/nouvelles",
+      "handler": "nouvelle.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nouvelles/:id",
+      "handler": "nouvelle.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nouvelles/:id",
+      "handler": "nouvelle.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

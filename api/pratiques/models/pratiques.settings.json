@@ -1,0 +1,27 @@
+{
+  "info": {
+    "name": "Pratiques"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "equipes": {
+      "collection": "equipe",
+      "via": "pratiques",
+      "dominant": true
+    },
+    "Debut": {
+      "type": "time"
+    },
+    "Fin": {
+      "type": "time"
+    },
+    "Jour": {
+      "type": "date"
+    }
+  },
+  "connection": "default",
+  "collectionName": "pratiques"
+}
