@@ -1,4 +1,7 @@
 {
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "pratiques",
   "info": {
     "name": "Pratiques"
   },
@@ -8,8 +11,8 @@
   },
   "attributes": {
     "equipes": {
-      "collection": "equipe",
       "via": "pratiques",
+      "collection": "equipe",
       "dominant": true
     },
     "Debut": {
@@ -21,7 +24,5 @@
     "Jour": {
       "type": "date"
     }
-  },
-  "connection": "default",
-  "collectionName": "pratiques"
+  }
 }

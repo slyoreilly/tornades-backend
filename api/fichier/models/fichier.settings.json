@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "fichiers",
+  "info": {
+    "name": "Fichier"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "fic": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "contexte": {
+      "type": "enumeration",
+      "enum": [
+        "docImportant",
+        "autre"
+      ],
+      "required": true,
+      "private": false
+    }
+  }
+}

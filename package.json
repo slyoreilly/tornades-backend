@@ -2,7 +2,7 @@
   "name": "tornades-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Backend Tornades",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,20 +11,20 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.0.0-beta.18.7",
-    "strapi-admin": "3.0.0-beta.18.7",
-    "strapi-utils": "3.0.0-beta.18.7",
-    "strapi-plugin-content-type-builder": "3.0.0-beta.18.7",
-    "strapi-plugin-content-manager": "3.0.0-beta.18.7",
-    "strapi-plugin-users-permissions": "3.0.0-beta.18.7",
-    "strapi-plugin-email": "3.0.0-beta.18.7",
-    "strapi-plugin-upload": "3.0.0-beta.18.7",
-    "strapi-connector-bookshelf": "3.0.0-beta.18.7",
+    "strapi": "3.0.0-beta.x",
+    "strapi-admin": "3.0.0-beta.x",
+    "strapi-utils": "3.0.0-beta.x",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.x",
+    "strapi-plugin-content-manager": "3.0.0-beta.x",
+    "strapi-plugin-users-permissions": "3.0.0-beta.x",
+    "strapi-plugin-email": "3.0.0-beta.x",
+    "strapi-plugin-upload": "3.0.0-beta.x",
+    "strapi-connector-bookshelf": "3.0.0-beta.x",
     "knex": "<0.20.0",
     "sqlite3": "latest"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Sly O'Reilly"
   },
   "strapi": {
     "uuid": "ee37f70d-c8f9-40aa-b162-d6667991ad22"

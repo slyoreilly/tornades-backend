@@ -1,4 +1,5 @@
 {
+  "kind": "collectionType",
   "connection": "default",
   "collectionName": "equipes",
   "info": {
@@ -13,8 +14,11 @@
       "type": "string"
     },
     "pratiques": {
-      "via": "equipes",
-      "collection": "pratiques"
+      "collection": "pratiques",
+      "via": "equipes"
+    },
+    "pageMatchHM": {
+      "type": "string"
     }
   }
 }
