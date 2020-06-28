@@ -5,7 +5,7 @@
   "description": "Backend Tornades",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "NODE_ENV=production strapi start",
     "build": "strapi build NODE_OPTIONS=--max-old-space-size=4096",
     "strapi": "strapi"
   },
