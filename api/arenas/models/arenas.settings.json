@@ -18,6 +18,9 @@
     },
     "lienGoogle": {
       "type": "string"
+    },
+    "telephone": {
+      "type": "string"
     }
   }
 }
