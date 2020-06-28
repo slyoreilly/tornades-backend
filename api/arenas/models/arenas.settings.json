@@ -1,4 +1,7 @@
 {
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "arenas",
   "info": {
     "name": "Arenas"
   },
@@ -12,8 +15,9 @@
     },
     "Adresse": {
       "type": "string"
+    },
+    "lienGoogle": {
+      "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "arenas"
+  }
 }

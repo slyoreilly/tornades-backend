@@ -110,3 +110,9 @@ dist
 exports
 .cache
 build
+
+
+############################
+# Database
+############################
+.tmp/data.db
