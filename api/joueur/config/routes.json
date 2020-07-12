@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/joueurs",
+      "handler": "joueur.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/joueurs/count",
+      "handler": "joueur.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/joueurs/:id",
+      "handler": "joueur.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/joueurs",
+      "handler": "joueur.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/joueurs/:id",
+      "handler": "joueur.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/joueurs/:id",
+      "handler": "joueur.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
