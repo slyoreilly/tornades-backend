@@ -29,8 +29,7 @@
       "type": "string"
     },
     "CodePostal": {
-      "type": "string",
-      "maxLength": 6
+      "type": "string"
     },
     "Cellulaire": {
       "type": "string"
@@ -58,8 +57,7 @@
     },
     "AnneeDerniereEquipe": {
       "type": "integer",
-      "max": 2020,
-      "min": 2010
+      "default": 0
     },
     "NomPere": {
       "type": "string"
