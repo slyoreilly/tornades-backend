@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "arenas",
+  "info": {
+    "name": "Arena"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    },
+    "Adresse": {
+      "type": "string"
+    },
+    "LienGoogle": {
+      "type": "string"
+    },
+    "Telephone": {
+      "type": "string"
+    }
+  }
+}

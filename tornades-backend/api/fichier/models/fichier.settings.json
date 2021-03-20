@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fichiers",
+  "info": {
+    "name": "Fichier"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Fic": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pratiques",
+  "info": {
+    "name": "Pratique",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Debut": {
+      "type": "time"
+    },
+    "Fin": {
+      "type": "time"
+    },
+    "Jour": {
+      "type": "date"
+    },
+    "equipes": {
+      "collection": "equipe",
+      "via": "pratique"
+    }
+  }
+}

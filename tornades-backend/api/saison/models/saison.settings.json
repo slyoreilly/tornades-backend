@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "saisons",
+  "info": {
+    "name": "Saison"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Debut": {
+      "type": "date"
+    }
+  }
+}

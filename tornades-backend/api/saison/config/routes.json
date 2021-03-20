@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/saisons",
+      "handler": "saison.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/saisons/count",
+      "handler": "saison.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/saisons/:id",
+      "handler": "saison.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/saisons",
+      "handler": "saison.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/saisons/:id",
+      "handler": "saison.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/saisons/:id",
+      "handler": "saison.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
