@@ -1,0 +1,90 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inscriptions",
+  "info": {
+    "name": "Inscription"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Prenom": {
+      "type": "string"
+    },
+    "Nom": {
+      "type": "string"
+    },
+    "Sexe": {
+      "type": "string"
+    },
+    "AdresseNo": {
+      "type": "integer"
+    },
+    "Rue": {
+      "type": "string"
+    },
+    "CodePostal": {
+      "type": "string"
+    },
+    "DateDeNaissance": {
+      "type": "date"
+    },
+    "DerniereEquipe": {
+      "type": "string"
+    },
+    "AnneeDerniereEquipe": {
+      "type": "integer",
+      "min": 1970,
+      "max": 2050
+    },
+    "PremiereFois": {
+      "type": "boolean",
+      "default": false
+    },
+    "PrenomParent1": {
+      "type": "string"
+    },
+    "PrenomParent2": {
+      "type": "string"
+    },
+    "TelephoneParent1": {
+      "type": "string"
+    },
+    "CourrielParent1": {
+      "type": "string"
+    },
+    "impliqueParent1": {
+      "type": "boolean",
+      "default": false
+    },
+    "NomParent2": {
+      "type": "string"
+    },
+    "TelephoneParent2": {
+      "type": "string"
+    },
+    "CourrielParent2": {
+      "type": "string"
+    },
+    "impliqueParent2": {
+      "type": "boolean"
+    },
+    "PrenomUrgence": {
+      "type": "string"
+    },
+    "NomUrgence": {
+      "type": "string"
+    },
+    "TelephoneUrgence": {
+      "type": "string"
+    },
+    "CourrielImpots": {
+      "type": "email"
+    },
+    "Commentaires": {
+      "type": "text"
+    }
+  }
+}

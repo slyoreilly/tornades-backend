@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/inscriptions",
+      "handler": "inscription.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/inscriptions/count",
+      "handler": "inscription.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/inscriptions/:id",
+      "handler": "inscription.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/inscriptions",
+      "handler": "inscription.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/inscriptions/:id",
+      "handler": "inscription.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/inscriptions/:id",
+      "handler": "inscription.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
