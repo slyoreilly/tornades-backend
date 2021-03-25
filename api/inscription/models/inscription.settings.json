@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "inscriptions",
   "info": {
-    "name": "Inscription"
+    "name": "Inscription",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -85,6 +86,9 @@
     },
     "Commentaires": {
       "type": "text"
+    },
+    "NomParent1": {
+      "type": "string"
     }
   }
 }

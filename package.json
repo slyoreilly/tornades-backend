@@ -2,7 +2,7 @@
   "name": "tornades-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "Le site des Tornades de AHMV",
+  "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -24,10 +24,10 @@
     "sqlite3": "5.0.0"
   },
   "author": {
-    "name": "Sylvain O'Reilly"
+    "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "15661ffe-d0f3-4db3-9381-1603cc271350"
+    "uuid": "12d8a977-539a-46ec-823b-b9732525861c"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
