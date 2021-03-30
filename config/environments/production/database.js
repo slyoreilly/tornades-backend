@@ -3,16 +3,14 @@ module.exports = ({ env }) => ({
     defaultConnection: "default",
     connections: {
       default: {
-        connector: "bookshelf",
+        connector: 'bookshelf',
         settings: {
-          client: "sqlite",
-          host: "${process.env.DATABASE_HOST || '127.0.0.1'}",
-          port: "${process.env.DATABASE_PORT || 27017}",
-          database: "${process.env.DATABASE_NAME || 'strapi'}",
-          username: "${process.env.DATABASE_USERNAME || ''}",
-          password: "${process.env.DATABASE_PASSWORD || ''}"
+          client: 'sqlite',
+          filename: env('DATABASE_FILENAME', '/.data/data.db'),
         },
-        options: {}
-      }
+        options: {
+          useNullAsDefault: true,
+        },
+      },
     }
   });
