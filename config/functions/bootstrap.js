@@ -15,7 +15,7 @@ module.exports = async () => {
 
       const params = {
         username: process.env.DEV_USER || 'Sylvain',
-        password: process.env.DEV_PASS || 'isaac3!',
+        password: process.env.DEV_PASS || 'T0rn@d35!',
         firstname: process.env.DEV_USER || 'Sylvain',
         lastname: process.env.DEV_USER || "O'Reilly",
         email: process.env.DEV_EMAIL || 'soreilly@syncstats.com',
