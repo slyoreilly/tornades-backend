@@ -18,11 +18,12 @@
       "type": "time"
     },
     "Jour": {
-      "type": "date"
+      "type": "datetime"
     },
     "equipes": {
       "collection": "equipe",
-      "via": "pratique"
+      "via": "pratiques",
+      "dominant": true
     }
   }
 }

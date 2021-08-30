@@ -30,7 +30,7 @@
       "type": "string"
     },
     "DateDeNaissance": {
-      "type": "date"
+      "type": "datetime"
     },
     "DerniereEquipe": {
       "type": "string"

@@ -17,9 +17,9 @@
     "PageMatchHM": {
       "type": "string"
     },
-    "pratique": {
+    "pratiques": {
       "via": "equipes",
-      "model": "pratique"
+      "collection": "pratique"
     }
   }
 }
