@@ -24,6 +24,9 @@
       "collection": "equipe",
       "via": "pratiques",
       "dominant": true
+    },
+    "arena": {
+      "model": "arena"
     }
   }
 }
