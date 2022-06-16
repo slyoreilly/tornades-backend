@@ -9,7 +9,6 @@
     "build": "strapi build ",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
     "knex": "0.21.18",
     "sqlite3": "5.0.0",
@@ -33,5 +32,6 @@
     "node": ">=10.16.0 <=14.x.x",
     "npm": "^6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@3.2.1"
 }
