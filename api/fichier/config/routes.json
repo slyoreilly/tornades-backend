@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/fichiers",
+      "path": "/api/fichiers",
       "handler": "fichier.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/fichiers/count",
+      "path": "/api/fichiers/count",
       "handler": "fichier.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/fichiers/:id",
+      "path": "/api/fichiers/:id",
       "handler": "fichier.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/fichiers",
+      "path": "/api/fichiers",
       "handler": "fichier.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/fichiers/:id",
+      "path": "/api/fichiers/:id",
       "handler": "fichier.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/fichiers/:id",
+      "path": "/api/fichiers/:id",
       "handler": "fichier.delete",
       "config": {
         "policies": []

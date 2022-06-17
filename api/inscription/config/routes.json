@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/inscriptions",
+      "path": "/api/inscriptions",
       "handler": "inscription.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/inscriptions/count",
+      "path": "/api/inscriptions/count",
       "handler": "inscription.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/inscriptions/:id",
+      "path": "/api/inscriptions/:id",
       "handler": "inscription.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/inscriptions",
+      "path": "/api/inscriptions",
       "handler": "inscription.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/inscriptions/:id",
+      "path": "/api/inscriptions/:id",
       "handler": "inscription.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/inscriptions/:id",
+      "path": "/api/inscriptions/:id",
       "handler": "inscription.delete",
       "config": {
         "policies": []

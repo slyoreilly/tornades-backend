@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/nouvelles",
+      "path": "/api/nouvelles",
       "handler": "nouvelle.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/nouvelles/count",
+      "path": "/api/nouvelles/count",
       "handler": "nouvelle.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/nouvelles/:id",
+      "path": "/api/nouvelles/:id",
       "handler": "nouvelle.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/nouvelles",
+      "path": "/api/nouvelles",
       "handler": "nouvelle.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/nouvelles/:id",
+      "path": "/api/nouvelles/:id",
       "handler": "nouvelle.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/nouvelles/:id",
+      "path": "/api/nouvelles/:id",
       "handler": "nouvelle.delete",
       "config": {
         "policies": []

@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/arenas",
+      "path": "/api/arenas",
       "handler": "arena.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/arenas/count",
+      "path": "/api/arenas/count",
       "handler": "arena.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/arenas/:id",
+      "path": "/api/arenas/:id",
       "handler": "arena.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/arenas",
+      "path": "/api/arenas",
       "handler": "arena.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/arenas/:id",
+      "path": "/api/arenas/:id",
       "handler": "arena.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/arenas/:id",
+      "path": "/api/arenas/:id",
       "handler": "arena.delete",
       "config": {
         "policies": []

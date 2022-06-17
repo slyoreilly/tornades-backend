@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/saisons",
+      "path": "/api/saisons",
       "handler": "saison.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/saisons/count",
+      "path": "/api/saisons/count",
       "handler": "saison.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/saisons/:id",
+      "path": "/api/saisons/:id",
       "handler": "saison.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/saisons",
+      "path": "/api/saisons",
       "handler": "saison.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/saisons/:id",
+      "path": "/api/saisons/:id",
       "handler": "saison.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/saisons/:id",
+      "path": "/api/saisons/:id",
       "handler": "saison.delete",
       "config": {
         "policies": []

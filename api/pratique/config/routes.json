@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/pratiques",
+      "path": "/api/pratiques",
       "handler": "pratique.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/pratiques/count",
+      "path": "/api/pratiques/count",
       "handler": "pratique.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/pratiques/:id",
+      "path": "/api/pratiques/:id",
       "handler": "pratique.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/pratiques",
+      "path": "/api/pratiques",
       "handler": "pratique.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/pratiques/:id",
+      "path": "/api/pratiques/:id",
       "handler": "pratique.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/pratiques/:id",
+      "path": "/api/pratiques/:id",
       "handler": "pratique.delete",
       "config": {
         "policies": []
