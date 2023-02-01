@@ -1863,6 +1863,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/bson@npm:1.x || 4.0.x":
+  version: 4.0.5
+  resolution: "@types/bson@npm:4.0.5"
+  dependencies:
+    "@types/node": "*"
+  checksum: f6c74a68eec836010170e7091399b45fe39e2f7724372441cc00a0fbd0b9f44d901688504174d558edbf220922fa0c7c52fbc4aa0f2136194fa713101b8f2ec9
+  languageName: node
+  linkType: hard
+
 "@types/formidable@npm:^1.0.31":
   version: 1.0.32
   resolution: "@types/formidable@npm:1.0.32"
@@ -8871,14 +8880,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongodb@npm:3.6.5":
-  version: 3.6.5
-  resolution: "mongodb@npm:3.6.5"
+"mongodb@npm:3.7.3":
+  version: 3.7.3
+  resolution: "mongodb@npm:3.7.3"
   dependencies:
     bl: ^2.2.1
     bson: ^1.1.4
     denque: ^1.4.1
-    require_optional: ^1.0.1
+    optional-require: ^1.1.8
     safe-buffer: ^5.1.2
     saslprep: ^1.0.0
   dependenciesMeta:
@@ -8897,7 +8906,7 @@ __metadata:
       optional: true
     snappy:
       optional: true
-  checksum: b18c3c1c53957c74eea50862c36d2487904d58877287d05d125a4220ed8142856cfd200dc3a15b265fe71e6b6183b56d83a6a074e890849f2486e73a864d4c7c
+  checksum: ef7690fe6ee7d1752f121b14e59b3fabfddc60ff0536babce6c945703ad0010de9e6fa7de4c91b99275c256876a72a06899ce27893aba0838c2b542088bd1044
   languageName: node
   linkType: hard
 
@@ -8911,22 +8920,24 @@ __metadata:
   linkType: hard
 
 "mongoose@npm:^5.5.13":
-  version: 5.12.1
-  resolution: "mongoose@npm:5.12.1"
+  version: 5.13.15
+  resolution: "mongoose@npm:5.13.15"
   dependencies:
+    "@types/bson": 1.x || 4.0.x
     "@types/mongodb": ^3.5.27
     bson: ^1.1.4
     kareem: 2.3.2
-    mongodb: 3.6.5
+    mongodb: 3.7.3
     mongoose-legacy-pluralize: 1.0.2
-    mpath: 0.8.3
-    mquery: 3.2.4
+    mpath: 0.8.4
+    mquery: 3.2.5
     ms: 2.1.2
+    optional-require: 1.0.x
     regexp-clone: 1.0.0
     safe-buffer: 5.2.1
-    sift: 7.0.1
+    sift: 13.5.2
     sliced: 1.0.1
-  checksum: fb508230efa90d275824ba5db0c5b764946da9794f76b7be81bf59b19fed2cd4c430e033fe6c36830dc79379d831def904c1e722c5de3715be384ab6331011a9
+  checksum: 74edc47c7819b82220e44402b3607faee622dfe6ac52947e812a7a179feebc295d1f7e7802da9353f8fc1f095b1b4eed775ed2c3914ee4baa332a36cb4679e18
   languageName: node
   linkType: hard
 
@@ -8944,23 +8955,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mpath@npm:0.8.3":
-  version: 0.8.3
-  resolution: "mpath@npm:0.8.3"
-  checksum: 541032316f883abd8e4a8042686e8aa013598abb292fd420f76895706dc537d5ace6beef153d6e1a14557eef74e326f4a903d47d7674e29c49b00aeceb16da86
+"mpath@npm:0.8.4":
+  version: 0.8.4
+  resolution: "mpath@npm:0.8.4"
+  checksum: 06ad1d443766626fa361b67a4eca9cd4c36a71e475e92e8a5c242dbbc9a911adac00ce971177843b48475356df609f847342548da7701a976a2ab4116135caf0
   languageName: node
   linkType: hard
 
-"mquery@npm:3.2.4":
-  version: 3.2.4
-  resolution: "mquery@npm:3.2.4"
+"mquery@npm:3.2.5":
+  version: 3.2.5
+  resolution: "mquery@npm:3.2.5"
   dependencies:
     bluebird: 3.5.1
     debug: 3.1.0
     regexp-clone: ^1.0.0
     safe-buffer: 5.1.2
     sliced: 1.0.1
-  checksum: 56861e91f7caf403284b2a5da52c8dd0d56910d064af49af5f29aea1ecc4e4438eed787f788fb81dae5984c47dea6cb80a3f4fe4b15cda499b5e7067e5d98195
+  checksum: 3f8c80c36118e144148a3a41015a3a218e45bddabb33ba2630b50f50c31acf3c4e9f6c0ca11fa07e955a0fe11941d17ac8f03356d3e4eb0452034469d8dd1856
   languageName: node
   linkType: hard
 
@@ -9653,6 +9664,22 @@ __metadata:
   dependencies:
     is-wsl: ^1.1.0
   checksum: 35b677b5a1fd6c8cb1996b0607671ba79f7ce9fa029217d54eafaf6bee13eb7e700691c6a415009140fd02a435fffdfd143875f3b233b60f3f9d631c6f6b81a0
+  languageName: node
+  linkType: hard
+
+"optional-require@npm:1.0.x":
+  version: 1.0.3
+  resolution: "optional-require@npm:1.0.3"
+  checksum: 113d376ee2a130afbca1610c17f25f4d1d7c7e42029f3b4d56334ee5408fec2c3fe31617abdb699025cced274d75fd6f0b2ed5eb49bec47acabeecc3feb76f19
+  languageName: node
+  linkType: hard
+
+"optional-require@npm:^1.1.8":
+  version: 1.1.8
+  resolution: "optional-require@npm:1.1.8"
+  dependencies:
+    require-at: ^1.0.6
+  checksum: 437db76f713052925185ae80837b593877f75101154e8937f50d33b0b07bd500c214efc9016748642109b6e3e1197eb0513a2963eb06bcf3890f88a2724b1c87
   languageName: node
   linkType: hard
 
@@ -11463,6 +11490,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"require-at@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "require-at@npm:1.0.6"
+  checksum: 7753a6ebad99855ef015d5533a787c65e883c94c23371368eebf6f1c7e2a078811013b204823152cbab206a00e825e8e5ca09416fd835a489fa30bf064fbe6d9
+  languageName: node
+  linkType: hard
+
 "require-directory@npm:^2.1.1":
   version: 2.1.1
   resolution: "require-directory@npm:2.1.1"
@@ -11474,16 +11508,6 @@ __metadata:
   version: 2.0.0
   resolution: "require-main-filename@npm:2.0.0"
   checksum: e9e294695fea08b076457e9ddff854e81bffbe248ed34c1eec348b7abbd22a0d02e8d75506559e2265e96978f3c4720bd77a6dad84755de8162b357eb6c778c7
-  languageName: node
-  linkType: hard
-
-"require_optional@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "require_optional@npm:1.0.1"
-  dependencies:
-    resolve-from: ^2.0.0
-    semver: ^5.1.0
-  checksum: 64aed45ccff138e3e8abfa104de6f9bd324d27408228dbe0902049f586a2a80caf885e162b4724ee9dd5a2a0369987e8b5c5db86f5eb48a98a9f7c7d00b5c5a5
   languageName: node
   linkType: hard
 
@@ -11526,13 +11550,6 @@ __metadata:
     expand-tilde: ^2.0.0
     global-modules: ^1.0.0
   checksum: ef736b8ed60d6645c3b573da17d329bfb50ec4e1d6c5ffd6df49e3497acef9226f9810ea6823b8ece1560e01dcb13f77a9f6180d4f242d00cc9a8f4de909c65c
-  languageName: node
-  linkType: hard
-
-"resolve-from@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "resolve-from@npm:2.0.0"
-  checksum: 02db4c30fecddef0efafbafb2d66b96c4a80f91d103d9850be3b85d1feb65b6af6c818d137dc546cea7d0288c21e13aa0fb4580af9af34b08052b3516690c5f3
   languageName: node
   linkType: hard
 
@@ -11849,7 +11866,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^5.1.0, semver@npm:^5.3.0, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.6.0":
+"semver@npm:^5.3.0, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.6.0":
   version: 5.7.1
   resolution: "semver@npm:5.7.1"
   bin:
@@ -12133,10 +12150,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sift@npm:7.0.1":
-  version: 7.0.1
-  resolution: "sift@npm:7.0.1"
-  checksum: 530df355c1c368e5b99735d34afefff82b6c638809f100d00940e7672ab550a42132f99271d54866a3e743a699e011e48d7bf07c44409c26cf722820f6ab0d1a
+"sift@npm:13.5.2":
+  version: 13.5.2
+  resolution: "sift@npm:13.5.2"
+  checksum: 31951836c464b995b25f888876dea9c58c7a3eaa419d2ed271776d55db2d1019c6438ee458047d3c16bc93f0a329366dc535dc3a6afc42038949dc2a6a548f61
   languageName: node
   linkType: hard
 
